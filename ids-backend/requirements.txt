@@ -1,0 +1,14 @@
+flask
+flask-cors
+langchain-groq
+joblib
+numpy
+pandas
+python-dotenv
+requests
+tenacity
+langchain-core
+langchain-community
+streamlit
+scikit-learn==1.5.1
+
