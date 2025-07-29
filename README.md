@@ -12,6 +12,7 @@ Features
     Single Command Startup: Start frontend, backend, and chatbot together using one command.
 
 Project Structure
+
     intrusionDetectionSystem/
     │
     ├── ids-frontend/        # React frontend
@@ -51,11 +52,6 @@ Setup Instructions
     Start Flask backend (backend.py).
     Start Streamlit chatbot (app.py) in headless mode.
     Start React frontend.
-  
-  6. Access the App
-      Frontend (React): http://localhost:3000
-      Backend API: http://localhost:5000
-      Chatbot (via iframe): Integrated into the React UI.
 
 Key Scripts
    
@@ -77,8 +73,8 @@ Technologies Used
   Chatbot: Streamlit, LangChain Groq API.
   Others: XLSX for Excel parsing, Concurrently for parallel startup.
 
-8. License
-This project is licensed under the MIT License.
+License
+    This project is licensed under the MIT License.
 
 <img width="1351" height="866" alt="image" src="https://github.com/user-attachments/assets/813d8a2f-cd35-437a-a6f7-e11aafe239c4" />
 <img width="1854" height="853" alt="image" src="https://github.com/user-attachments/assets/c4351007-83ad-4fea-a32f-8c393ecd1823" />
