@@ -66,9 +66,9 @@ Setup Instructions
     
 7. Access the App
    
-        Frontend (React): http://localhost:3000
-        Backend API: http://localhost:5000
-        Chatbot (via iframe): Integrated into the React UI.
+    Frontend (React): http://localhost:3000
+    Backend API: http://localhost:5000
+    Chatbot (via iframe): Integrated into the React UI.
 
 Key Scripts
    
@@ -89,10 +89,10 @@ Key Scripts
 
 Technologies Used
 
-  Frontend: React, Tailwind CSS.
-  Backend: Flask, Scikit-learn, Pandas, NumPy.
-  Chatbot: Streamlit, LangChain Groq API.
-  Others: XLSX for Excel parsing, Concurrently for parallel startup.
+      Frontend: React, Tailwind CSS.
+      Backend: Flask, Scikit-learn, Pandas, NumPy.
+      Chatbot: Streamlit, LangChain Groq API.
+      Others: XLSX for Excel parsing, Concurrently for parallel startup.
 
 License
 
