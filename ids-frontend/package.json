@@ -18,7 +18,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "dev": "concurrently \"cd ../ids-backend && python backend.py\" \"cd ../ids-backend && streamlit run app.py --server.headless true\" \"npm start\""
   },
   "eslintConfig": {
     "extends": [
@@ -37,5 +38,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "concurrently": "^9.2.0"
   }
 }
